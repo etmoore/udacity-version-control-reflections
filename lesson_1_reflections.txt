@@ -1,17 +1,21 @@
 Prompt: How did viewing a diff between two versions of a file help you see the bug that was introduced?
-
 It helped me focus on just the text that was different between the two files.
 It would have taken me a long time to locate the typo if I had to simply
-scroll through the file to find it.
+scroll through the file to find it. It was nice to let the computer do the hard work for me :)
 
 Prompt: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
-Knowing that I can go back to a previous verion makes it safe to take risks. It's a learning multiplier.
+Knowing that I can go back to a previous verion makes it safe to take risks. It's a learning multiplier. Reading the history of a file also helps me understand
+how the author of the file constructed it. I can get a better understanding of the code by looking at its history.
 
 Prompt: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 The assumption with Git is that your files depend on each other. Each file doesn't stand alone. They need to be connected to create a program. In google docs, however, most files stand alone.
 
-How can you use the commands git log and git diff to view the history of files?
+Prompt: How can you use the commands git log and git diff to view the history of files?
 Use git log to view the history of all commits. Use git diff to see what changed between commits.
 
-How might using version control make you more confident to make changes that could break something?
+Prompt: How might using version control make you more confident to make changes that could break something?
 If I know that I can always get back to a safe place, I'm more likely to take risks!
+
+Prompt: Now that you have your workspace set up, what do you want to try using Git for?
+I already use git, but I'm excited to learn about some of the more advanced features.
+
